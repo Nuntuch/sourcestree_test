@@ -16,13 +16,35 @@ public class Main {
         
     }
     
+    
+    public static double cal_plus(double a , double b){
 
-        public static String cal_divide(double a , double b){
+        double ans  = a+b;
+        
+        return ans;
+
+    }
+    
+    public static double cal_multiple(double a , double b){
+
+        double ans  = a*b;
+        
+        return ans;
+
+    }
+    
+    public static double cal_minus(double a , double b){
+        double ans  = a-b;
+        
+        return ans;
+    }
+    
+    
+    public static String cal_divide(double a , double b){
         String ans  = "Error! b cannot 0";
         if(b != 0){
             ans  = a/b + "";
         }
-        
         return ans;
 
     }
