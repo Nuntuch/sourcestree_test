@@ -20,9 +20,11 @@ public class Main {
     
     public double cal_plus(double a , double b){
 
+
         double ans  = a+b;
         
         return ans;
+
 
     }
     
@@ -32,8 +34,11 @@ public class Main {
     }
     
     public double cal_multiple(double a , double b){
+
+        double ans  = a*b;
         
-        return 0;
+        return ans;
+
     }
     
     public double cal_divide(double a , double b){
