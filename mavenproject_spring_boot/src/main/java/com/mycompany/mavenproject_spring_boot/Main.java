@@ -21,8 +21,6 @@ public class Main {
     return is_parrot;
     }
     
-    
-    
 
         
     public static void test2(){
@@ -34,6 +32,12 @@ public class Main {
     
     
     }
+    
+
+    
+    
+//    Test1
+    
     
 
 }
