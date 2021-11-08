@@ -5,6 +5,7 @@
  */
 package com.mycompany.mavenproject_spring_boot;
 
+import com.mycompany.mavenproject_spring_boot.model.Calculator;
 /**
  *
  * @author Nuntuch Thongyoo
@@ -14,65 +15,16 @@ public class Main {
         System.out.println("Parrot");
         System.out.println("Now I stay in develop branch.");
         
-        System.out.println("cal_plus : "+ cal_plus(46, 48));
-        System.out.println("cal_minus : "+ cal_minus(46, 48));
-        System.out.println("cal_multiple : "+ cal_multiple(46, 48));
-        System.out.println("cal_divide : "+ cal_divide(46, 48));
-        System.out.println("cal_divide (case b = 0) : "+ cal_divide(0, 0));
-        System.out.println("cal_modulo : "+ cal_modulo(46, 48));
+        Calculator calculator = new Calculator(); 
+        
+        System.out.println("cal_plus : "+ calculator.cal_plus(46, 48));
+        System.out.println("cal_minus : "+ calculator.cal_minus(46, 48));
+        System.out.println("cal_multiple : "+ calculator.cal_multiple(46, 48));
+        System.out.println("cal_divide : "+ calculator.cal_divide(46, 48));
+        System.out.println("cal_divide (case b = 0) : "+ calculator.cal_divide(0, 0));
+        System.out.println("cal_modulo : "+ calculator.cal_modulo(46, 48));
         
     }
     
-    
-    public static double cal_plus(double a , double b){
-
-        double ans  = a+b;
-        
-        return ans;
-
-    }
-    
-    public static double cal_multiple(double a , double b){
-
-        double ans  = a*b;
-        
-        return ans;
-
-    }
-    
-    public static double cal_minus(double a , double b){
-        double ans  = a-b;
-        
-        return ans;
-    }
-    
-    
-    public static String cal_divide(double a , double b){
-        String ans  = "Error! b cannot 0";
-        if(b != 0){
-            ans  = a/b + "";
-        }
-        return ans;
-
-    }
-    
-    public static double cal_modulo(double a , double b){
-        double ans  = a%b;
-        
-        return ans;
-
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
 }
