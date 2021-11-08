@@ -40,9 +40,11 @@ public class Main {
     }
     
     
-    public static double cal_divide(double a , double b){
-        double ans  = a/b;
-        
+    public static String cal_divide(double a , double b){
+        String ans  = "Error! b cannot 0";
+        if(b != 0){
+            ans  = a/b + "";
+        }
         return ans;
 
     }
