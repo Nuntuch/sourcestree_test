@@ -13,4 +13,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Parrot");
     }
+    public static boolean parrot(){
+    
+    return true;
+    }
 }
