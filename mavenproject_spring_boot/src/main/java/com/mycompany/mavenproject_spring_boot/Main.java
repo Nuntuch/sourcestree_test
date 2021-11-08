@@ -25,6 +25,8 @@ public class Main {
         System.out.println("cal_divide (case b = 0) : "+ calculator.cal_divide(0, 0));
         System.out.println("cal_modulo : "+ calculator.cal_modulo(46, 48));
         
+        System.out.println("BMI!!!");
+        
     }
     
 
