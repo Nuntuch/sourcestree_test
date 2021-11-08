@@ -29,15 +29,14 @@ public class Main {
     }
 
     public static void test1(){
-    
-    
-    }
-    
 
-    
+
     
 //    Test1
     
     
 
-}
+
+    
+//    test2
+        }
