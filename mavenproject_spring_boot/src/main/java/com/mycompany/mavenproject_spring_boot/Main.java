@@ -14,11 +14,10 @@ public class Main {
         System.out.println("Parrot");
         System.out.println("Now I stay in develop branch.");
         
-        
     }
     
     
-    public double cal_plus(double a , double b){
+    public static double cal_plus(double a , double b){
 
         double ans  = a+b;
         
@@ -26,7 +25,7 @@ public class Main {
 
     }
     
-    public double cal_multiple(double a , double b){
+    public static double cal_multiple(double a , double b){
 
         double ans  = a*b;
         
@@ -34,14 +33,14 @@ public class Main {
 
     }
     
-    public double cal_minus(double a , double b){
+    public static double cal_minus(double a , double b){
         double ans  = a-b;
         
         return ans;
     }
     
     
-    public double cal_divide(double a , double b){
+    public static double cal_divide(double a , double b){
         double ans  = a/b;
         
         return ans;
