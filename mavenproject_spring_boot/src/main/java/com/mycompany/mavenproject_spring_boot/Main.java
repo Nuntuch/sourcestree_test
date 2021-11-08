@@ -14,21 +14,10 @@ public class Main {
         System.out.println("Parrot");
 
 
+    
+        }
     }
-    
-    public static boolean parrot(boolean is_parrot){
-    
-    return is_parrot;
-    }
-    
-    
-    
-        
-    public static void test2(){
-    
-    
-    }
-    
-    
-//    test2
-}
+
+
+
+
