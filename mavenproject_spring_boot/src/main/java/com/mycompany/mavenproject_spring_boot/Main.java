@@ -47,6 +47,13 @@ public class Main {
 
     }
     
+    public static double cal_modulo(double a , double b){
+        double ans  = a%b;
+        
+        return ans;
+
+    }
+    
     
     
     
