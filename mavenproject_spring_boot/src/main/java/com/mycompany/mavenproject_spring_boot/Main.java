@@ -15,8 +15,9 @@ public class Main {
 
 
     }
-    public static boolean parrot(){
     
-    return true;
+    public static boolean parrot(boolean is_parrot){
+    
+    return is_parrot;
     }
 }
