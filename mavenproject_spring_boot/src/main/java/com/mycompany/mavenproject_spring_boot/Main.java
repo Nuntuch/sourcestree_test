@@ -19,8 +19,9 @@ public class Main {
     
     
     public double cal_plus(double a , double b){
+        double ans  = a+b;
         
-        return 0;
+        return ans;
     }
     
     public double cal_minus(double a , double b){
