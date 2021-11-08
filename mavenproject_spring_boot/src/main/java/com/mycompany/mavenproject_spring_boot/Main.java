@@ -34,8 +34,9 @@ public class Main {
     }
     
     public double cal_divide(double a , double b){
+        double ans  = a/b;
         
-        return 0;
+        return ans;
     }
     
     
