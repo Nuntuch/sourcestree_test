@@ -13,11 +13,4 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Parrot");
     }
-    
-    public double cal_divide(double a , double b){
-        
-        double ans  = a/b;
-        
-        return ans;
-    }
 }
