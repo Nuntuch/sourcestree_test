@@ -12,6 +12,8 @@ package com.mycompany.mavenproject_spring_boot;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Parrot");
+        System.out.println("Parrot");
+        System.out.println("Parrot");
     }
     public static boolean parrot(){
     
