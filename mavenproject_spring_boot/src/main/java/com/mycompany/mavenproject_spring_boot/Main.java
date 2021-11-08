@@ -14,6 +14,13 @@ public class Main {
         System.out.println("Parrot");
         System.out.println("Now I stay in develop branch.");
         
+        System.out.println("cal_plus : "+ cal_plus(46, 48));
+        System.out.println("cal_minus : "+ cal_minus(46, 48));
+        System.out.println("cal_multiple : "+ cal_multiple(46, 48));
+        System.out.println("cal_divide : "+ cal_divide(46, 48));
+        System.out.println("cal_divide (case b = 0) : "+ cal_divide(0, 0));
+        System.out.println("cal_modulo : "+ cal_modulo(46, 48));
+        
     }
     
     
