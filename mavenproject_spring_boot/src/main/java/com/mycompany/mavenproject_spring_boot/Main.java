@@ -15,17 +15,7 @@ public class Main {
         System.out.println("Parrot");
         System.out.println("Now I stay in develop branch.");
 
-        
-        Calculator calculator = new Calculator(); 
-        
-        System.out.println("cal_plus : "+ calculator.cal_plus(46, 48));
-        System.out.println("cal_minus : "+ calculator.cal_minus(46, 48));
-        System.out.println("cal_multiple : "+ calculator.cal_multiple(46, 48));
-        System.out.println("cal_divide : "+ calculator.cal_divide(46, 48));
-        System.out.println("cal_divide (case b = 0) : "+ calculator.cal_divide(0, 0));
-        System.out.println("cal_modulo : "+ calculator.cal_modulo(46, 48));
-        
-        System.out.println("BMI!!!");
+        System.out.println("BMI New!!!");
         
     }
     
